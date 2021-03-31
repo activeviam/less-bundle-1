@@ -1,0 +1,7 @@
+{
+  "include": ["lib"],
+  "compilerOptions": {
+    "rootDir": "lib",
+    "outDir": "dist"
+  }
+}
