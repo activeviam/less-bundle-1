@@ -1,5 +1,5 @@
 {
-  "name": "activeviam-less-bundle",
+  "name": "@activeviam/less-bundle",
   "version": "0.1.2",
   "description": "A package bundler for Less",
   "author": {
