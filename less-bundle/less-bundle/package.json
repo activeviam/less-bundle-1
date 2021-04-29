@@ -1,6 +1,6 @@
 {
   "name": "@activeviam/less-bundle",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "A package bundler for Less",
   "author": {
     "name": "Platypi",

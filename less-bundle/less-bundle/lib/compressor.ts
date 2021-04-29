@@ -53,7 +53,7 @@ function compress(config?: globals.IConfig, callback?: (err) => void) {
         buildContents(splitLines, src);
 
         // generate the output
-        generateOutput();
+        generateOutput(output);
 
         // If a license file is specified, we want to prepend it to the output.
         if (!!license) {
