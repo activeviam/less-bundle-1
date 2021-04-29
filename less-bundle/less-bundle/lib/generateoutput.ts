@@ -1,7 +1,5 @@
 ﻿import globals = require('./globals');
 
-var output = globals.output;
-
 function removeEmptyStringsFromEnd(output: Array<string>) {
     while (!output[output.length - 1]) {
         output.pop();
@@ -12,7 +10,7 @@ function removeEmptyStringsFromEnd(output: Array<string>) {
  * Iterates through writers and invokes their write 
  * function, building the output array.
  */
-function generateOutput() {
+function generateOutput(output) {
     var writers = globals.writers,
         previousLine = '';
 

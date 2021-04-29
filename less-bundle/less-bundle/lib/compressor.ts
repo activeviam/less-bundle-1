@@ -29,7 +29,7 @@ function compress(config?: globals.IConfig, callback?: (err) => void) {
 
     var src = path.resolve(globals.config.src),
         writers = globals.writers,
-        output = globals.output,
+        output = [],
         dest = globals.config.dest,
         version = globals.config.version,
         license = globals.config.license;
